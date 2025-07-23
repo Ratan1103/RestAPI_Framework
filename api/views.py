@@ -2,11 +2,12 @@ from django.shortcuts import render
 from students.serializers import StudentSerializer,CourseSerializer,DepartmentSerializer
 from rest_framework import generics
 from students.models import Student,Course,Department
-
+from .paginations import CustomPagination
 
 class Students(generics.ListCreateAPIView):
     queryset=Student.objects.all()
     serializer_class=StudentSerializer
+    pagination_class=CustomPagination
 
 class StudentDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset=Student.objects.all()
