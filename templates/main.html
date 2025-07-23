@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Django API Navigation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f0f2f5;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .btn-container {
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: block;
+      width: 200px;
+      padding: 12px;
+      margin: 10px auto;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Django API Endpoint Navigation</h1>
+
+  <div class="btn-container">
+    <a href="/api/students/" class="btn">All Students</a>
+    <a href="/api/student/1/" class="btn">Student by ID (1)</a>
+    <a href="/api/courses/" class="btn">All Courses</a>
+    <a href="/api/course/1" class="btn">Course by ID (1)</a>
+    <a href="/api/departments/" class="btn">All Departments</a>
+    <a href="/api/department/" class="btn">Department Detail</a>
+  </div>
+
+</body>
+</html>
