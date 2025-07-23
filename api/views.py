@@ -4,11 +4,16 @@ from rest_framework import generics
 from students.models import Student,Course,Department
 from .paginations import CustomPagination
 from .filters import StudentFilter
+from rest_framework.filters import SearchFilter,OrderingFilter
+
 class Students(generics.ListCreateAPIView):
     queryset=Student.objects.all()
     serializer_class=StudentSerializer
     pagination_class=CustomPagination
     filterset_class=StudentFilter
+    filter_backends=[SearchFilter,OrderingFilter]
+    search_fields=['std_name']
+    ordering_fields=['std_name']
 
 class StudentDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset=Student.objects.all()

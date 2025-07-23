@@ -6,4 +6,4 @@ class StudentFilter(django_filters.FilterSet):
     course = django_filters.CharFilter(field_name='course__course_name',lookup_expr='iexact')
     class Meta:
         model = Student
-        fields = ['department']
+        fields = ['department','course']
