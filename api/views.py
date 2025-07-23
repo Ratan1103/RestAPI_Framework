@@ -3,11 +3,12 @@ from students.serializers import StudentSerializer,CourseSerializer,DepartmentSe
 from rest_framework import generics
 from students.models import Student,Course,Department
 from .paginations import CustomPagination
-
+from .filters import StudentFilter
 class Students(generics.ListCreateAPIView):
     queryset=Student.objects.all()
     serializer_class=StudentSerializer
     pagination_class=CustomPagination
+    filterset_class=StudentFilter
 
 class StudentDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset=Student.objects.all()
