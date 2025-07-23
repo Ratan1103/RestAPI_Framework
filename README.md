@@ -9,7 +9,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/your-username/RestAPI_Framework-main/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/your-username/RestAPI_Framework/graphs/commit-activity)
 
 </div>
 
@@ -226,13 +226,13 @@ in the Software without restriction...
 
 <div align="center">
 
-[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](https://github.com/Ratan1103/RestAPI_Framework-main/issues)
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](https://github.com/Ratan1103/RestAPI_Framework/)
 [![Email](https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail)](mailto:sanjayratan665@gmail.com)
 
 </div>
 
 If you have any questions, feel free to:
-- 🐛 [Open an issue](https://github.com/Ratan1103/RestAPI_Framework-main/issues)
+- 🐛 [Open an issue](https://github.com/Ratan1103/RestAPI_Framework/issues)
 - 📧 Send an email to `sanjayratan665@gmail.com`
 - 💬 Start a discussion in the repository
 
